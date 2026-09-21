@@ -62,5 +62,26 @@ O sistema deve permitir excluir uma inspeção cadastrada.
 
 O sistema deve permitir gerar um relatório das inspeções cadastradas.
 
-  
-      
+---
+
+# Requisitos Não Funcionais
+
+## RNF001 - Desempenho
+
+- O sistema deve apresentar o resultado das consultas em até 2 segundos.
+- O sistema deve manter seu desempenho adequado mesmo sob alta quantidade de acessos simultâneos.
+- O sistema deve utilizar os recursos de memória de forma eficiente durante sua execução.
+
+---
+
+## RNF002 - Segurança
+
+- O sistema deve permitir acesso somente a usuários autorizados.
+- O sistema deve utilizar autenticação em dois fatores.
+
+---
+
+## RNF003 - Usabilidade
+
+- O sistema deve apresentar os campos de cadastro de forma clara e organizada.
+- O sistema deve possuir uma interface simples e fácil de utilizar.
